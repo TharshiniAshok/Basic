@@ -14,12 +14,12 @@ public class Task1 {
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://leaftaps.com/opentaps");
-		driver.findElementById("username").sendKeys("DemoSalesManager");
-		driver.findElementById("password").sendKeys("crmsfa");
+		driver.findElementById("username").sendKeys("DemoManager");
+		driver.findElementById("password").sendKeys("crmsfasa");
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.findElementByLinkText("CRM/SFA").click();
 		driver.findElementByLinkText("Create Contact").click();
-		driver.findElementById("firstNameField").sendKeys("Pavi");
+		driver.findElementById("firstNameField").sendKeys("PaviAshok");
 		driver.findElementById("lastNameField").sendKeys("Ashok");
 		driver.findElementById("createContactForm_firstNameLocal").sendKeys("Gayu");
 		driver.findElementById("createContactForm_lastNameLocal").sendKeys("G3");
